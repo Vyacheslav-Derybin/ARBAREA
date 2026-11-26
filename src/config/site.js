@@ -7,10 +7,10 @@
  * The custom domain (arbarea.ru) is not live yet, so the default origin is the
  * deployed Vercel domain — link previews must point at a host that actually
  * resolves, otherwise VK/Telegram cannot fetch og-image.jpg. Once the domain is
- * connected, set VITE_SITE_URL=https://arbarea.ru in the Vercel environment and
+ * connected, set VITE_SITE_URL=https://arbarea-mobile-fix.vercel.app in the Vercel environment and
  * every canonical/OG URL follows automatically.
  */
-export const DEFAULT_SITE_URL = 'https://arbarea-bice.vercel.app';
+export const DEFAULT_SITE_URL = 'https://arbarea-mobile-fix.vercel.app';
 
 export const resolveSiteUrl = (candidate) =>
   (candidate || DEFAULT_SITE_URL).replace(/\/+$/, '');

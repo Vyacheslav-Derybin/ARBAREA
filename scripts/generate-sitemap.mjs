@@ -23,7 +23,7 @@ if (!productsMatch) {
 const productsCode = `const PRODUCTS = [${productsMatch[1]}]; PRODUCTS;`;
 const PRODUCTS = eval(productsCode);
 
-const SITE_URL = 'https://arbarea.ru';
+const SITE_URL = 'https://arbarea-mobile-fix.vercel.app';
 
 const staticPages = [
   { path: '/', priority: '1.0', changefreq: 'weekly' },
