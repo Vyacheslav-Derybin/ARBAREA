@@ -175,7 +175,7 @@ function generateOrderCreatedEmail(orderId, name, order) {
       </p>
       
       <center>
-        <a href="https://arbarea-mobile-fix.vercel.app/profile" class="btn">Отслеживать заказ</a>
+        <a href="https://arbarea-mobile-app.vercel.app/profile" class="btn">Отслеживать заказ</a>
       </center>
     </div>
     <div class="footer">
@@ -245,7 +245,7 @@ function generateShippedEmail(orderId, name, order) {
       <p>Следите за статусом доставки в личном кабинете или по трек-номеру на сайте службы доставки.</p>
       
       <center>
-        <a href="https://arbarea-mobile-fix.vercel.app/profile" style="display: inline-block; background: #d97706; color: white; padding: 15px 30px; text-decoration: none; border-radius: 12px; font-weight: bold; margin: 20px 0;">
+        <a href="https://arbarea-mobile-app.vercel.app/profile" style="display: inline-block; background: #d97706; color: white; padding: 15px 30px; text-decoration: none; border-radius: 12px; font-weight: bold; margin: 20px 0;">
           Отслеживать заказ
         </a>
       </center>

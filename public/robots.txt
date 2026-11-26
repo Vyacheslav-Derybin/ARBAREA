@@ -9,5 +9,5 @@ Disallow: /debug
 # Yandex: collapse tracking params so paid/organic URLs are not indexed as duplicates
 Clean-param: utm_source&utm_medium&utm_campaign&utm_term&utm_content&yclid&ymclid&gclid&_openstat
 
-Host: https://arbarea-mobile-fix.vercel.app
-Sitemap: https://arbarea-mobile-fix.vercel.app/sitemap.xml
+Host: https://arbarea-mobile-app.vercel.app
+Sitemap: https://arbarea-mobile-app.vercel.app/sitemap.xml

@@ -4,9 +4,9 @@
  */
 
 const ALLOWED_ORIGINS = [
-  'https://arbarea-mobile-fix.vercel.app',
+  'https://arbarea-mobile-app.vercel.app',
   'https://www.arbarea.ru',
-  'https://arbarea-mobile-fix.vercel.app',
+  'https://arbarea-mobile-app.vercel.app',
   // Allow Vercel preview deployments
   /^https:\/\/arbarea-.*\.vercel\.app$/,
 ];
